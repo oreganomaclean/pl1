@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
-<!-- STUDENTS: Modify this file to provided the Google API key to get it working, 
-               then modify the lat and lng and zoom to point to a place you know  -->
 <!-- My story will follow the trail of a chocolate shop tour in Brussels, Belgium. Brussels is one of my favourite cities in Europe when I travelled there in 2019. The chocolate there was unmatched in its quality, variety and tastiness
  While eating these delicious treats, you are able to walk through some of the most beautiful architecture in Europe. The beer to help wash down the chocolate doesn't help either -->
 
@@ -11,13 +9,12 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
      <script src="./belgian.js"></script>
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+      /* The map height is always set to 100% of the div */
         #map {
           height: 100%;
         }
 
-        /* Optional: Makes the sample page fill the window. */
+        /* This makes the map fill the entire space of the window. */
         html,
         body {
           height: 100%;
@@ -29,8 +26,8 @@
   <body>
     <div id="map"></div>
     
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
+    
+    <!-- *** API key to connect to Google services *** -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
   </body>
