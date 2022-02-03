@@ -1,11 +1,4 @@
-// The following example creates five chocolate shop markers in Belgium and
-// focusable markers.
-function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
-    center: { lat: 50.84693089689634, lng: 4.352362179692574 },
-  });
-  // Set LatLng and title text for the markers. The first marker (Neuhaus)
+ // Set LatLng and title text for the markers. The first marker (Neuhaus)
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
