@@ -6,7 +6,7 @@
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 50.84693089689634, lng: 4.352362179692574 },
-    zoom: 17,
+    zoom: 18,
   });
 }
  // Set LatLng and title text for the markers. The first marker (Neuhaus)
