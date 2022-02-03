@@ -2,14 +2,6 @@
 // These are the coordinates for the chocolate shops within my chocolate tour in city centre of Brussels, Belgium. AKA the best place on Earth.
 // I was able to use this template by Google https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
 
-     let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 50.84693089689634, lng: 4.352362179692574 },
-    zoom: 18,
-  });
-}
  // Set LatLng and title text for the markers. The first marker (Neuhaus)
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
