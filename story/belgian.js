@@ -3,7 +3,7 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 12,
-    center: { lat: 34.84555, lng: -111.8035 },
+    center: { lat: 50.84693089689634, lng: 4.352362179692574 },
   });
   // Set LatLng and title text for the markers. The first marker (Neuhaus)
   // receives the initial focus when tab is pressed. Use arrow keys to
