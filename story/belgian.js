@@ -1,5 +1,6 @@
 // Regan's Story Map for Wed GIS Dev Lab Practical 1 - February 3 2022
 // These are the coordinates for the chocolate shops within my chocolate tour in city centre of Brussels, Belgium. AKA the best place on Earth.
+// I was able to use this template by Google https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
 
      let map;
 
