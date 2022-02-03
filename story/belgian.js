@@ -5,7 +5,7 @@
 
 function initMap() {
   // This makes the style of the map into the greens and brown tones
-  const styledMapType = new google.maps.StyledMapType(document.getelementbyid("map"), {
+  const map = new google.maps.Map(document.getelementbyid("map"), {
     center: { lat: 50.84693089689634, lng: 4.352362179692574 },
     zoom: 18,
   style [
