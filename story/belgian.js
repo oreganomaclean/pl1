@@ -2,13 +2,13 @@
 // These are the coordinates for the chocolate shops within my chocolate tour in city centre of Brussels, Belgium. AKA the best place on Earth.
 // I was able to use this template by Google to help with placing markers https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
 // This was able to change the colour of the map with https://developers.google.com/maps/documentation/javascript/examples/maptype-styled-simple#maps_maptype_styled_simple-javascript
+// This makes the style of the map into the greens and brown tones
 
 function initMap() {
-  // This makes the style of the map into the greens and brown tones
   const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 50.84693089689634, lng: 4.352362179692574 },
     zoom: 18,
-  style [
+  [
       { elementType: "geometry", stylers: [{ color: "#ebe3cd" }] },
       { elementType: "labels.text.fill", stylers: [{ color: "#523735" }] },
       { elementType: "labels.text.stroke", stylers: [{ color: "#f5f1e6" }] },
