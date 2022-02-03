@@ -1,6 +1,6 @@
 // Regan's Story Map for Wed GIS Dev Lab Practical 1 - February 3 2022
 // These are the coordinates for the chocolate shops within my chocolate tour in city centre of Brussels, Belgium. AKA the best place on Earth.
-// I was able to use this template by Google https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
+// I was able to use this template by Google to help with placing markers https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
 // This was able to change the colour of the map with https://developers.google.com/maps/documentation/javascript/examples/maptype-styled-simple#maps_maptype_styled_simple-javascript
 
 function initMap() {
@@ -119,7 +119,8 @@ function initMap() {
       },
     ],
    });
- 
+
+ // I was able to use this template by Google to help with placing markers https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
  // Set LatLng and title text for the markers. The first marker (Neuhaus)
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
