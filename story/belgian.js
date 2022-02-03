@@ -18,6 +18,7 @@ function initMap() {
     [{ lat: 50.847015139632866, lng: 4.354423215610558 }, "Godiva"], 
     [{ lat: 50.8473606181687, lng: 4.351853659486694 }, "Elisabeth"],
     [{ lat: 50.84751213131759, lng: 4.351931397330474 }, "Leonidas"], 
+  ];
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
 
