@@ -125,11 +125,11 @@ function initMap() {
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
-    [{ lat: 50.84687753261257, lng: 4.3531066713300275 }, "Neuhaus"], 
-    [{ lat: 50.846625126831874, lng: 4.353738846454988 }, "Gourmet Chocolaterie Belge"], 
-    [{ lat: 50.847015139632866, lng: 4.354423215610558 }, "Godiva"], 
-    [{ lat: 50.8473606181687, lng: 4.351853659486694 }, "Elisabeth"],
-    [{ lat: 50.84751213131759, lng: 4.351931397330474 }, "Leonidas"], 
+    [{ lat: 50.84687753261257, lng: 4.3531066713300275 }, "Neuhaus - The Best Chocolate in Town"], 
+    [{ lat: 50.846625126831874, lng: 4.353738846454988 }, "Gourmet Chocolaterie Belge - A Close Runner Up"], 
+    [{ lat: 50.847015139632866, lng: 4.354423215610558 }, "Godiva - World Renowned, 3rd on my List"], 
+    [{ lat: 50.8473606181687, lng: 4.351853659486694 }, "Elisabeth - Beautifully decorated"],
+    [{ lat: 50.84751213131759, lng: 4.351931397330474 }, "Leonidas - With a name like that it scores 300/10"], 
   ];
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
